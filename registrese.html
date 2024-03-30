@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vero Galbicka">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a70d24b6a8.js" crossorigin="anonymous"></script>
     <title>La cocina de G</title>
@@ -23,6 +24,49 @@
     </header>
 
     <main>
+
+        <form action="">
+            <h1>Formulario de registro</h1>
+    
+            <fieldset>
+    
+                <legend>Información personal</legend><br>
+                <label for="fullname">Nombre:</label> <input type="text" id="fullname" name="fullname" placeholder="Ingrese su nombre aquí." required>
+                <label for="fullname">Apellido:</label> <input type="text" id="fullname" name="fullname" placeholder="Ingrese su apellido aquí." required><br>
+                <p>Direccion: </p>
+                <label for="adress">Calle: </label><input type="text" id="Calle" name="calle" placeholder="Ingrese su calle aquí..." required>
+                <label for="number">Número: </label><input type="text" id="numero" name="numero" placeholder="Ingrese el número aquí..." required>
+                <label for="city">Ciudad: </label><input type="text" id="Ciudad" name="ciudad" required>
+                <label for="zip">Código Postal: </label><input type="text" id="zip" name="CP" placeholder="Ingrese el CP aquí..." required><br>                
+                <label for="telefono">Número: </label><input type="number" id="telefono" name="telefono" placeholder="Ingrese su telefono aquí...">
+                <label for="birthday">Fecha de nacimiento:</label> <input type="date" id="birthday" name="birthday" required> <br>               
+                <label for="email">Mail: </label><input type="email" required>
+                <label for="clave">Clave: </label><input type="password" id="clave">
+                <label for="link">Link del TP 3: </label><input type="link" id="link"><br>
+
+                <label for="gender">Genero:</label> <input type="radio" id="gender" name="gender" class="cbr" value="Male" required>Hombre <input type="radio" name="gender" class="cbr" value="Female">mujer <input type="radio" id="gender" name="gender" class="otro" value="other" required>Otro<br>
+                <label for="method">Conocimientos previos: </label> <input type="checkbox" id="method" name="method" class="cbr" value="HTML"> HTML <input type="checkbox" id="method" name="method" class="CSS" value="CSS"> CSS <input type="checkbox" id="method" name="method" class="cbr" value="Bootstrap"> Bootstrap
+                <input type="checkbox" id="method" name="method" class="js" value="js"> JavaScript
+                <input type="checkbox" id="method" name="method" class="typescript" value="typescript"> Typescript
+                <input type="checkbox" id="method" name="method" class="angular" value="angular"> Angular
+                <input type="checkbox" id="method" name="method" class="bd" value="bd"> Base de Datos
+                <input type="checkbox" id="method" name="method" class="py" value="py"> Python
+                <input type="checkbox" id="method" name="method" class="django" value="django"> Django <br>
+
+
+
+
+                <label for="text">Estudios(select):</label> <select id="estudios" name="estudios" required> 
+                <option value="pr">Primaria</option> 
+                <option value="sec">Secundaria</option> 
+                <option value="terc">Terciario</option> 
+                <option value="univ">Universitario</option> 
+                <option value="posgr">Posgrado</option> 
+                <option value="CaC">Codo a Codo</option> </select>
+                <label for="clave">Clave: </label><input type="password" id="clave"><br>
+            </fieldset><br>
+        
+        </form>
 
     </main>
 

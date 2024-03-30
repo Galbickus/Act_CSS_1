@@ -79,18 +79,3 @@ textarea {
     margin: 15px;
 }
 
-/* estilos para sucursales 
-#grid {
-    display: grid;
-    height: 10px;
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-    grid-gap: 10px 5px;
-  }
-  
-  #grid > div {
-    background-color: lime;
-  }
-
-*/
-
-

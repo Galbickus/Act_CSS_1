@@ -1,0 +1,17 @@
+header{
+    height: 10%;
+    width: 100%;
+    background: black;
+}
+header h1{
+    color: aliceblue;
+    text-align: center;
+}
+.nav{
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+    
+    
+}

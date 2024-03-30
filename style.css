@@ -19,3 +19,14 @@ header h1{
     text-decoration: none;
     padding: 5px;
 }
+
+
+
+footer{
+    height: 10%;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: aliceblue;
+
+}

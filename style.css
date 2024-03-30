@@ -1,8 +1,12 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 header{
     height: 10%;
     width: 100%;
     background: black;
 }
+
 header h1{
     color: aliceblue;
     text-align: center;
@@ -12,6 +16,6 @@ header h1{
     color: aliceblue;
     border-radius: 5px;
     margin: 5px;
-    
-    
+    text-decoration: none;
+    padding: 5px;
 }

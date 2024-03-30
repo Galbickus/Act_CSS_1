@@ -20,13 +20,24 @@ header h1{
     padding: 5px;
 }
 
+main p{
+    font-weight: bold;
+}
 
+img{
+    width: 30%;
+    height: auto;
+}
+
+.bt-receta{
+    margin: 15px;
+}
 
 footer{
+    /* padding: 2%; */
     height: 10%;
     width: 100%;
     background: black;
     text-align: center;
     color: aliceblue;
-
 }

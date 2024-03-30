@@ -61,6 +61,7 @@ fieldset {
 
 label {
     display: inline;
+    height: 2rem;
     width: 120px; /* Ancho fijo para todas las etiquetas */
     text-align: left;
     margin-right: 12px; /* Espacio entre etiquetas y campos de entrada */

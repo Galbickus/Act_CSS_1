@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vero Galbicka">
+    <!-- Con ../, estás retrocediendo un nivel desde la carpeta src al directorio principal donde se encuentra style.css.  -->
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/a70d24b6a8.js" crossorigin="anonymous"></script>
+    <title>La cocina de G</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <br>
+            <a class="nav" href="../index.html">Home</a>
+            <a class="nav" href="acerca_de.html">Acerca de</a>
+            <a class="nav" href="contacto.html">Contacto</a>
+            <a class="nav" href="registrese.html">Regístrese</a>
+            <a class="nav" href="sucursales.html">Sucursales</a>
+
+        </nav>
+        <h1>La Cocina de Juan</h1>
+    </header>
+
+    <main>
+
+        <form action="">
+            <h1>Contactenos</h1>
+    
+            <fieldset>
+    
+                <legend>Contactenos</legend><br>
+                <label for="fullname">Nombre:</label> <input type="text" id="fullname" name="fullname" placeholder="Ingrese su nombre aquí." required>
+                <label for="fullname">Apellido:</label> <input type="text" id="fullname" name="fullname" placeholder="Ingrese su apellido aquí." required><br>
+                <p>Direccion: </p>
+                <div class="div-regis" id="grid">
+
+                    <label for="number">Número: </label><input type="text" id="numero" name="numero" placeholder="Ingrese el número aquí..." required>
+               
+                    <label for="telefono">Número: </label><input type="number" id="telefono" name="telefono" placeholder="Ingrese su telefono aquí...">
+             
+                    <label for="email">Mail: </label><input type="email" required>
+
+                    <label for="comentarios">Comentarios: </label> <textarea rows="2" cols="60" id="adress" name="adress"> </textarea> <br>
+
+                    <nav class="bt-enviar">
+                        <a class="nav" href="">Enviar</a>
+                    </nav>
+                </div>
+            </fieldset><br>
+        
+        </form>
+
+    </main>
+
+    <footer>
+        <nav class="nav-footer">
+        
+            <a href="https://twitter.com/ChefPacoAlmeida/status/1535619982276628480" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/JimenaMonteverdePaginaoficial/posts/sopa-de-calabaza-facil%C3%ADsimalos-d%C3%ADas-frescos-invitan-a-preparar-sopas-hoy-les-com/7448494118558913/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.pinterest.es/pin/397724210837068342/" target="_blank" rel="noopener"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="https://www.instagram.com/jimemonteverde/p/Ce4dTsjMHKS/?img_index=1" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/veronica-galbicka/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Galbickus" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+
+            
+                <!-- <a> es el elemento de anclaje que se utiliza para crear el enlace -->
+                <!--El atributo href contiene la URL de tu perfil de LinkedIn o cualquier otra página web a la que desees enlazar.  -->
+                <!-- target="_blank"  ***IMPORTANTE*** porque si no lo pongo me saca de mi pagina y no queremos eso se utiliza para abrir el enlace en una nueva pestaña del navegador -->
+                <!-- rel="noopener" ayuda a prevenir ciertos tipos de ataques de seguridad. -->
+                <!-- El <i> dentro del <a> es donde colocas la clase de Font Awesome para el ícono de la pag, que es "fab fa-github" en este caso -->
+        </nav>
+        
+        <p>Deerechos reservados @2024</p>
+        <p>galbickus</p>
+    </footer>
+</body>
+</html>

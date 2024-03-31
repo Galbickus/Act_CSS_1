@@ -90,3 +90,11 @@ textarea {
     text-align: justify;
 
 }
+
+/* estilo contacto */
+
+.main-contact{
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}

@@ -79,3 +79,14 @@ textarea {
     margin: 15px;
 }
 
+/* Estilos de Acerca de */
+.main-acerca{
+
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quienes{
+    text-align: justify;
+
+}

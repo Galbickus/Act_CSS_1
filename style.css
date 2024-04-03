@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    margin: 1%;
+}
 header{
     height: 10%;
     width: 100%;
@@ -13,6 +16,12 @@ header{
 header h1{
     color: aliceblue;
     text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+main h1{
+    margin-bottom: 1%;
 }
 .nav{
     background-color: gray;
@@ -55,6 +64,9 @@ i{
 .titulo{
     color: rgb(210, 34, 34);
 }
+.video_1{
+    margin: 1%;
+}
 
 /* estilos formulario REGISTRESE */
 
@@ -91,7 +103,13 @@ textarea {
 }
 .quienes{
     text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 1%;
 
+}
+
+.fotos_local{
+    text-align: center;
 }
 
 /* estilo contacto */

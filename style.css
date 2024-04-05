@@ -119,3 +119,23 @@ textarea {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+/* estilos Nuestros clientes */
+
+.main_nuestros_clientes {
+    text-align: left;
+}
+
+.nuestros_clientes_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre las imágenes */
+    margin-bottom: 1%;
+}
+
+.nuestros_clientes_img img {
+    width: 100%; /* Para que las imágenes ocupen el 100% del contenedor */
+    max-width: 30%; /*Establece el máximo ancho de las imágenes */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
